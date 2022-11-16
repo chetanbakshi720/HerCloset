@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Her Closet</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/bluebee_stylepage.css">
+        <script type="text/javascript" src="/css/Javascript.js"></script>
+    </head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container header-container common-container">
+            <a href="/Home" class="logo nav-link"><img src="/Home/logo.png" alt=""></a>
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="/Home">Home</a></li>
+                <li><a href="/brands" class="nav-link">Shop</a></li>
+                <li class="mobile-margin"><a href="/aboutus" class="nav-link">About Us</a></li>
+                <li>
+                    <div class="search-container nav-link">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                </li>
+                <li><a class="active nav-link" href="/login" class="nav-link">LogIN</a></li>
+                <li><a href="/register" class="nav-link">Sign Up</a></li>
+                <li><a href="/shopping_bag" class="nav-link">Bag <i class="fa fa-shopping-bag"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="body-section">
+        <section id="inner-header-banner">
+            <div class="header-banner-container common-container"></div>
+        </section>
+        <div class="thank-you-page">
+            <div class="login-page">
+                <h1 class="bag-page-title">Welcom To <span class="bag-page-title-highlight">Her Closet</span></h1>
+                <div class="product-container common-container">
+                    <div class="login-content">
+                        <h2>Log In using</h2>
+                        <div class="login-images">
+                            <a href="https://www.facebook.com/" target="_blank"><img class="facebook-img"
+                                    src="/Login/facebook.jpeg"></a>
+                            <a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+                                target="_blank"><img class="google-img" src="/Login/google.jpeg"></a>
+                        </div>
+                        <p class="login-text">Or</p>
+                        <div class="login-body-inner-content">
+                            <form onsubmit="return false;" id="form" name="registration" action="" >
+                                <!--onsubmit="return validateloginform()"-->
+                                <h2>Enter Mobile Number / Email*</h2><br><br>
+                                <input type="text" name="email" id="email" placeholder="Email"
+                                    class="checkout_text1" required>
+                                <input type="password" name="password" id="password" placeholder="Password"
+                                    class="checkout_text1" required><br>
+                                <div class="alert" id="error" style="display: none;"></div>
+                                <div class="alert" id="success" style="display: none;"></div>
+                                <button type="submit" class="login-btn" value="SUBMIT">LOGIN</button>
+                                <br><br>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="innerpage-footer-space"></div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="column-footer">
+                <h3><b>Navigation</b></h3>
+                <ul>
+                    <li><a href="/Home">Home</a></li>
+                    <li><a href="/brands">Shop</a></li>
+                    <li><a href="/aboutus">About Us</a></li>
+                </ul>
+            </div>
+            <div class="column-footer">
+                <h3><b>Useful Links</b></h3>
+                <ul>
+                    <li><a class="active" href="/login">Log IN</a></li>
+                    <li><a href="/register">Sign Up</a></li>
+                    <li><a href="/shopping_bag">Bag</a></li>
+                </ul>
+            </div>
+            <div class="column-footer">
+                <h3><b>Follow Us</b></h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank" class="fa social fa-facebook"></a>
+                        <a href="https://twitter.com/login" target="_blank" class="fa social fa-twitter"></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/?nocaa=1&refsrc=deprecated" target="_blank"
+                            class="fa social fa-instagram"></a>
+                        <a href="https://www.linkedin.com/signup" target="_blank" class="fa social fa-linkedin"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column-footer">
+                <h3><b>Contact Details</b></h3>
+                <ul>
+                    <li><a href="#" class="fa contact-fa fa-map-marker"></a>12, Building Name, Street Name, City,
+                        Country - Zipcode</li>
+                    <li><a href="tel:123 456 789" class="fa contact-fa fa-phone"></a><a href="tel:123 456 789">123 456
+                            789</a></li>
+                    <li><a href="mailto:hercloset@gmail.com" class="fa contact-fa fa-envelope"></a><a
+                            href="mailto:hercloset@gmail.com">hercloset@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src = "/js/login.js"></script>
+</body>
+
+</html>
